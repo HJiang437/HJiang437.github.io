@@ -3,118 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 40px 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-
-        h1 {
-            font-size: 36px;
-            color: #333;
-        }
-
-        h2 {
-            font-size: 28px;
-            color: #333;
-        }
-
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-
-        img.profile-photo {
-            max-width: 150px;
-            height: auto;
-            border: 5px solid #333;
-            border-radius: 50%;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-
-        .awards {
-            margin-top: 20px;
-        }
-
-        .award-item {
-            margin-bottom: 10px;
-        }
-    </style>
+    <title>Hao Jiang - Personal Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Create a CSS file for styling -->
 </head>
 <body>
     <header>
-        <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
-        <h1 style="margin-bottom: 10px;">Your Name</h1>
-        <p>Welcome to my personal website</p>
+        <h1>Welcome to Hao Jiang's Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="https://scholar.google.com/citations/your_google_scholar_id">Google Scholar</a></li>
+                <li><a href="https://www.ieee.org/membership/profile/myprofile.html">IEEE Page</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            Hello, I'm [Your Name]. This is where you can write a brief introduction about yourself, your interests, and your background.
-        </p>
 
+    <section id="bio">
+        <h2>About Me</h2>
+        <img src="your_photo.jpg" alt="Hao Jiang">
+        <p>Your bio goes here. Include information about your background, research interests, and contact details.</p>
+    </section>
+
+    <section id="publications">
         <h2>Publications</h2>
         <ul>
-            <li>
-                <strong>Title of Publication 1</strong><br>
-                Published in [Journal/Conference Name], [Year]<br>
-                Description of the publication and its significance.
-            </li>
-            <li>
-                <strong>Title of Publication 2</strong><br>
-                Published in [Journal/Conference Name], [Year]<br>
-                Description of the publication and its significance.
-            </li>
-            <!-- Add more publication entries as needed -->
+            <li>Publication 1 - Year</li>
+            <li>Publication 2 - Year</li>
+            <!-- Add more publications as needed -->
         </ul>
+    </section>
 
+    <section id="awards">
         <h2>Awards</h2>
-        <div class="awards">
-            <div class="award-item">
-                <strong>Award Name 1</strong><br>
-                Year: [Year]<br>
-                Description of the award and its significance.
-            </div>
-            <div class="award-item">
-                <strong>Award Name 2</strong><br>
-                Year: [Year]<br>
-                Description of the award and its significance.
-            </div>
-            <!-- Add more award items as needed -->
-        </div>
+        <ul>
+            <li>Award 1 - Year</li>
+            <li>Award 2 - Year</li>
+            <!-- Add more awards as needed -->
+        </ul>
+    </section>
 
-        <h2>Portfolio</h2>
-        <p>
-            Showcase your work, projects, or achievements in this section. You can include images, descriptions, and links to your work.
-        </p>
-
-        <h2>Contact</h2>
-        <p>
-            You can be reached at [your email address]. Feel free to contact me with any questions or opportunities.
-        </p>
-    </div>
+    <footer>
+        <p>&copy; 2023 Hao Jiang. All rights reserved.</p>
+    </footer>
 </body>
 </html>
